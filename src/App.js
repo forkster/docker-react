@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload. I was edited in the source_ja_change branch cause i can't spell - stillllllll! 
+          Edit <code>src/App.js</code> and save to reload. I was edited in the source_ja_change branch with yet another change that should get auto-deployed. 
         </p>
         <a
           className="App-link"
