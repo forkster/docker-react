@@ -11,6 +11,7 @@ CMD [ "npm", "run", "build" ]
 #our build output is now in /app/build
 
 FROM nginx AS run
+EXPOSE 80
 
 COPY --from=builder /app/build /usr/share/nginx/html
 
