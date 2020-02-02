@@ -13,6 +13,6 @@ CMD [ "npm", "run", "build" ]
 FROM nginx AS run
 EXPOSE 80
 
-COPY --from=builder /app/build /usr/share/nginx/html
+COPY --from=builder /app/build/ /usr/share/nginx/html
 
 #default command starts nginx, so we don't have to have a CMD option
